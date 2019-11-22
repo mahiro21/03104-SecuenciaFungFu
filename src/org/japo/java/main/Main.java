@@ -31,20 +31,20 @@ public final class Main {
         
 
         //Constantes
-        final double DineroIni = 2;
-        final double PrecioPeli = 1.30;
-        final double PrecioPalomitas = 0.45;
+        final double DINERO_INI = 2;
+        final double PRECIO_PELI = 1.30;
+        final double PRECIO_PALOMITAS = 0.45;
 
         System.out.printf("Secuencia de Kung-Fu%n====================%n");
-        System.out.printf(Locale.ENGLISH, "Dinero inicial .....: %.2f €%n", DineroIni);
+        System.out.printf(Locale.ENGLISH, "Dinero inicial .....: %.2f €%n", DINERO_INI);
         System.out.printf("---%n");
-        System.out.printf(Locale.ENGLISH, "Precio película ....: %.2f €%n", PrecioPeli);
-        System.out.printf(Locale.ENGLISH, "Parte palomitas ....: %.2f €%n", PrecioPalomitas);
+        System.out.printf(Locale.ENGLISH, "Precio película ....: %.2f €%n", PRECIO_PELI);
+        System.out.printf(Locale.ENGLISH, "Parte palomitas ....: %.2f €%n", PRECIO_PALOMITAS);
         System.out.printf("---%n");
-        gastoPersona =  PrecioPeli + PrecioPalomitas;
+        gastoPersona =  PRECIO_PELI + PRECIO_PALOMITAS;
         System.out.printf(Locale.ENGLISH, "Gastos por persona .: %.2f €%n", gastoPersona);
         System.out.printf("---%n");
-        dineroLeft = DineroIni - gastoPersona;
+        dineroLeft = DINERO_INI - gastoPersona;
         System.out.printf(Locale.ENGLISH, "Dinero restante ....: %.2f €%n", dineroLeft);
 
     }
